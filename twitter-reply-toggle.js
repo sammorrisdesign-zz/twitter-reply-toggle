@@ -13,7 +13,7 @@ $(document).ready(function() {
 	if ($(".verified-link").length == 0) {
 	
 		$("<style>.hidden-tweet{display: none}</style>").appendTo("head");
-		$("<small class='view-toggler'><a href='#All'>All</a> / <a href='#'>No Replies</a></small>").appendTo(".content-main .content-header .header-inner h2");
+		$("<small class='view-toggler'><a href='#'>All</a> / <a href='#'>No Replies</a></small>").appendTo(".content-main .content-header .header-inner h2");
 		$(".view-toggler a:eq(0)").addClass('active');
 		
 		var flag = 0;
